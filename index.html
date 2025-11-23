@@ -1,0 +1,635 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <title>Resultados esperados con 400 € en Google Ads · Football & Fun Academy</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Fuente estilo Apple -->
+  <link rel="stylesheet" href="https://www.apple.com/wss/fonts?families=SF+Pro,v3:200,300,400,500,600|SF+Pro+Icons,v3" />
+
+  <style>
+    :root {
+      --bg-page: #f5f5f7;
+      --bg-card: #ffffff;
+      --bg-soft: #f0f0f3;
+      --border-subtle: #d2d2d7;
+      --text-main: #1d1d1f;
+      --text-secondary: #6e6e73;
+      --accent: #0071e3;
+      --accent-soft: rgba(0,113,227,0.08);
+      --radius-xl: 24px;
+      --shadow-soft: 0 18px 40px rgba(0,0,0,0.08);
+      --max-width: 1100px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text",
+                   system-ui, -system-ui, "Segoe UI", sans-serif;
+      background: var(--bg-page);
+      color: var(--text-main);
+      -webkit-font-smoothing: antialiased;
+      padding: 40px 16px 80px;
+    }
+
+    .ff-wrapper {
+      max-width: var(--max-width);
+      margin: 0 auto;
+    }
+
+    .ff-hero {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .ff-eyebrow {
+      font-size: 13px;
+      font-weight: 500;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 8px;
+    }
+
+    .ff-hero h1 {
+      font-size: clamp(28px, 4vw, 36px);
+      font-weight: 600;
+      letter-spacing: -.02em;
+      margin-bottom: 12px;
+    }
+
+    .ff-hero p {
+      font-size: 16px;
+      line-height: 1.5;
+      color: var(--text-secondary);
+      max-width: 640px;
+      margin: 0 auto;
+    }
+
+    .ff-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+      gap: 24px;
+      align-items: stretch;
+      margin-bottom: 32px;
+    }
+
+    @media (max-width: 800px) {
+      .ff-grid {
+        grid-template-columns: minmax(0, 1fr);
+      }
+    }
+
+    .ff-card {
+      background: var(--bg-card);
+      border-radius: var(--radius-xl);
+      box-shadow: var(--shadow-soft);
+      padding: 24px 24px 26px;
+      border: 1px solid rgba(0,0,0,0.03);
+    }
+
+    .ff-card h2 {
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 8px;
+      letter-spacing: -.01em;
+    }
+
+    .ff-card p {
+      font-size: 14px;
+      line-height: 1.6;
+      color: var(--text-secondary);
+    }
+
+    .ff-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: var(--bg-soft);
+      border: 1px solid var(--border-subtle);
+      font-size: 13px;
+      color: var(--text-secondary);
+      margin-bottom: 16px;
+    }
+
+    .ff-pill strong {
+      color: var(--text-main);
+      font-weight: 600;
+    }
+
+    .ff-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 14px;
+      font-size: 14px;
+    }
+
+    .ff-table thead th {
+      text-align: left;
+      font-weight: 500;
+      padding-bottom: 8px;
+      color: var(--text-secondary);
+      border-bottom: 1px solid var(--border-subtle);
+    }
+
+    .ff-table tbody tr:not(:last-child) td {
+      border-bottom: 1px solid #ececef;
+    }
+
+    .ff-table td {
+      padding: 8px 0;
+      vertical-align: top;
+    }
+
+    .ff-tag {
+      display: inline-flex;
+      align-items: center;
+      padding: 3px 10px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 500;
+      letter-spacing: .04em;
+      text-transform: uppercase;
+      border: 1px solid var(--border-subtle);
+      color: var(--text-secondary);
+      background: #fafafa;
+    }
+
+    .ff-tag--green {
+      color: #106b21;
+      background: #e8f7eb;
+      border-color: #c8ebd1;
+    }
+
+    .ff-tag--amber {
+      color: #8a6100;
+      background: #fff7e5;
+      border-color: #ffe4a8;
+    }
+
+    .ff-tag--red {
+      color: #a6261f;
+      background: #ffe8e5;
+      border-color: #ffb5ab;
+    }
+
+    .ff-note {
+      font-size: 12px;
+      color: var(--text-secondary);
+      margin-top: 10px;
+    }
+
+    .ff-section-title {
+      font-size: 18px;
+      font-weight: 600;
+      margin: 32px 0 16px;
+      letter-spacing: -.01em;
+    }
+
+    .ff-pricing-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    @media (max-width: 900px) {
+      .ff-pricing-grid {
+        grid-template-columns: minmax(0, 1fr);
+      }
+    }
+
+    .ff-plan-card {
+      background: var(--bg-card);
+      border-radius: 20px;
+      box-shadow: 0 12px 30px rgba(0,0,0,0.06);
+      padding: 18px 18px 20px;
+      border: 1px solid rgba(0,0,0,0.03);
+    }
+
+    .ff-plan-name {
+      font-size: 15px;
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+
+    .ff-plan-price {
+      font-size: 24px;
+      font-weight: 600;
+      letter-spacing: -.02em;
+      margin-bottom: 8px;
+    }
+
+    .ff-plan-meta {
+      font-size: 13px;
+      color: var(--text-secondary);
+      margin-bottom: 10px;
+    }
+
+    .ff-plan-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+      margin-top: 4px;
+    }
+
+    .ff-plan-table th,
+    .ff-plan-table td {
+      padding: 4px 0;
+      text-align: left;
+    }
+
+    .ff-plan-table th {
+      font-weight: 500;
+      color: var(--text-secondary);
+    }
+
+    .ff-plan-table tbody tr:not(:last-child) td {
+      border-bottom: 1px dashed #ececef;
+    }
+
+    .ff-ads-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.2fr) minmax(0, .9fr);
+      gap: 20px;
+      margin-top: 10px;
+    }
+
+    @media (max-width: 800px) {
+      .ff-ads-grid {
+        grid-template-columns: minmax(0, 1fr);
+      }
+    }
+
+    .ff-ad-frame {
+      background: #ffffff;
+      border-radius: 18px;
+      border: 1px solid var(--border-subtle);
+      box-shadow: 0 16px 32px rgba(0,0,0,0.06);
+      padding: 18px 18px 20px;
+    }
+
+    .ff-ad-toolbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+      font-size: 11px;
+      color: var(--text-secondary);
+    }
+
+    .ff-ad-chip {
+      padding: 4px 8px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: var(--accent);
+      font-size: 11px;
+      font-weight: 500;
+    }
+
+    .ff-ad-google {
+      font-weight: 500;
+    }
+
+    .ff-ad-result {
+      margin-top: 4px;
+    }
+
+    .ff-ad-url {
+      font-size: 12px;
+      color: #0f5132;
+      margin-bottom: 2px;
+    }
+
+    .ff-ad-headline {
+      font-size: 15px;
+      color: #1a0dab;
+      text-decoration: none;
+      display: inline-block;
+      margin-bottom: 2px;
+      font-weight: 500;
+    }
+
+    .ff-ad-desc {
+      font-size: 13px;
+      color: #4d5156;
+      line-height: 1.5;
+      margin-bottom: 8px;
+    }
+
+    .ff-ad-sitelinks {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 6px;
+      font-size: 12px;
+    }
+
+    .ff-ad-sitelinks a {
+      color: #1a0dab;
+      text-decoration: none;
+    }
+
+    .ff-ad-mobile {
+      max-width: 340px;
+      margin: 0 auto;
+      border-radius: 24px;
+      border: 1px solid var(--border-subtle);
+      overflow: hidden;
+      background: #f8f9fa;
+    }
+
+    .ff-ad-mobile-header {
+      background: #ffffff;
+      padding: 10px 14px;
+      border-bottom: 1px solid #e4e4e4;
+      font-size: 12px;
+      color: var(--text-secondary);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .ff-ad-mobile-body {
+      padding: 12px 14px 14px;
+    }
+
+    .ff-ad-mobile-headline {
+      font-size: 14px;
+      font-weight: 500;
+      color: #1a0dab;
+      margin-bottom: 2px;
+    }
+
+    .ff-ad-mobile-url {
+      font-size: 11px;
+      color: #0f5132;
+      margin-bottom: 4px;
+    }
+
+    .ff-ad-mobile-desc {
+      font-size: 12px;
+      color: #4d5156;
+      line-height: 1.4;
+    }
+  </style>
+</head>
+<body>
+  <main class="ff-wrapper">
+    <!-- HERO -->
+    <header class="ff-hero">
+      <div class="ff-eyebrow">Football &amp; Fun Academy · Google Ads</div>
+      <h1>Inversión 400€ euros en Google Ads</h1>
+      <p>
+        Esta sección resume, de forma visual, cuántas inscripciones podríamos lograr con una inversión de
+        400 € en campañas de búsqueda para Football &amp; Fun Academy.
+      </p>
+    </header>
+
+    <!-- BLOQUE PRINCIPAL: ESCENARIOS -->
+    <section class="ff-grid" aria-labelledby="escenarios-title">
+      <article class="ff-card">
+        <div class="ff-pill">
+          <strong>Objetivo:</strong> conseguir inscripciones para F&F Academy.
+        </div>
+        <h2 id="escenarios-title">Escenarios de resultados con 400 €</h2>
+        <p>
+          Trabajamos con tres escenarios posibles según el coste por adquisición (CPA) de cada nueva inscripción.
+          Los valores son estimaciones realistas para campañas de búsqueda muy segmentadas en Bizkaia.
+        </p>
+
+        <table class="ff-table" aria-label="Escenarios de inversión">
+          <thead>
+            <tr>
+              <th style="width: 30%;">Escenario</th>
+              <th style="width: 25%;">CPA estimado</th>
+              <th style="width: 20%;">Inscripciones</th>
+              <th style="width: 25%;">Facturación (ticket medio 234 €)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <span class="ff-tag ff-tag--green">Optimista</span>
+              </td>
+              <td>25 €</td>
+              <td>16</td>
+              <td>3.744 €</td>
+            </tr>
+            <tr>
+              <td>
+                <span class="ff-tag ff-tag--amber">Realista</span>
+              </td>
+              <td>35 €</td>
+              <td>11–12</td>
+              <td>2.574–2.808 €</td>
+            </tr>
+            <tr>
+              <td>
+                <span class="ff-tag ff-tag--red">Pesimista</span>
+              </td>
+              <td>55 €</td>
+              <td>7</td>
+              <td>1.638 €</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <p class="ff-note">
+          El ticket medio se ha calculado a partir de las tres modalidades de inscripción
+          (mensual, trimestral y anual). Las cifras son orientativas, pero permiten ver de un
+          vistazo el potencial de la inversión.
+        </p>
+      </article>
+
+      <!-- BLOQUE LADO DERECHO: RESUMEN -->
+      <aside class="ff-card" aria-label="Resumen ejecutivo">
+        <h2>Resumen </h2>
+        <p>
+          La combinación de un interés elevado, búsqueda activa por parte de las familias y un competidor principal fuera de la ventana de inscripción crea una coyuntura que no se repite durante todo el año.<br><br> En este escenario, una inversión de 400 € en Google Ads ofrece un rendimiento muy por encima de la media del sector. De forma realista, este presupuesto permite obtener entre 11 y 12 inscripciones nuevas con un ticket medio que ronda los 234 €, lo que se traduce en una facturación aproximada de 2.800 €.
+
+<br><br>En resumen, la campaña no solo maximiza el retorno directo de la inversión, sino que se apoya en un momento del mercado excepcionalmente propicio para posicionar a Football & Fun Academy como la opción más visible y accesible en un momento en el que muchas familias están especialmente receptivas y buscan activamente alternativas inmediatas y de calidad.
+        </p>
+        
+      </aside>
+    </section>
+
+    <!-- PLANES DE PRECIO -->
+    <section aria-labelledby="planes-title">
+      <h2 class="ff-section-title" id="planes-title">Impacto por tipo de inscripción</h2>
+      <p style="font-size:14px;color:var(--text-secondary);max-width:720px;margin-bottom:18px;">
+        A continuación se muestra cómo se traduce ese mismo volumen de inscripciones en cada una de las
+        modalidades actuales: mensual, trimestral y anual. Se utilizan los mismos tres escenarios de CPA
+        (optimista, realista y pesimista) y los mismos volúmenes de inscripciones (7, 12 y 16).
+      </p>
+
+      <div class="ff-pricing-grid">
+        <!-- Mensual -->
+        <article class="ff-plan-card">
+          <div class="ff-plan-name">Inscripción mensual</div>
+          <div class="ff-plan-price">79 €</div>
+          <div class="ff-plan-meta">4 sesiones al mes en la academy</div>
+
+          <table class="ff-plan-table" aria-label="Resultados inscripción mensual">
+            <thead>
+              <tr>
+                <th>Escenario</th>
+                <th>Inscripciones</th>
+                <th>Facturación</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Optimista</td>
+                <td>16</td>
+                <td>1.264 €</td>
+              </tr>
+              <tr>
+                <td>Realista</td>
+                <td>12</td>
+                <td>948 €</td>
+              </tr>
+              <tr>
+                <td>Pesimista</td>
+                <td>7</td>
+                <td>553 €</td>
+              </tr>
+            </tbody>
+          </table>
+        </article>
+
+        <!-- Trimestral -->
+        <article class="ff-plan-card">
+          <div class="ff-plan-name">Inscripción trimestral</div>
+          <div class="ff-plan-price">219 €</div>
+          <div class="ff-plan-meta">12 sesiones por trimestre.</div>
+
+          <table class="ff-plan-table" aria-label="Resultados inscripción trimestral">
+            <thead>
+              <tr>
+                <th>Escenario</th>
+                <th>Inscripciones</th>
+                <th>Facturación</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Optimista</td>
+                <td>16</td>
+                <td>3.504 €</td>
+              </tr>
+              <tr>
+                <td>Realista</td>
+                <td>12</td>
+                <td>2.628 €</td>
+              </tr>
+              <tr>
+                <td>Pesimista</td>
+                <td>7</td>
+                <td>1.533 €</td>
+              </tr>
+            </tbody>
+          </table>
+        </article>
+
+        <!-- Anual -->
+        <article class="ff-plan-card">
+          <div class="ff-plan-name">Inscripción anual</div>
+          <div class="ff-plan-price">406 €</div>
+          <div class="ff-plan-meta">24 sesiones a lo largo del año.</div>
+
+          <table class="ff-plan-table" aria-label="Resultados inscripción anual">
+            <thead>
+              <tr>
+                <th>Escenario</th>
+                <th>Inscripciones</th>
+                <th>Facturación</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Optimista</td>
+                <td>16</td>
+                <td>6.496 €</td>
+              </tr>
+              <tr>
+                <td>Realista</td>
+                <td>12</td>
+                <td>4.872 €</td>
+              </tr>
+              <tr>
+                <td>Pesimista</td>
+                <td>7</td>
+                <td>2.842 €</td>
+              </tr>
+            </tbody>
+          </table>
+        </article>
+      </div>
+    </section>
+
+    <!-- MOCKUPS DE ANUNCIOS GOOGLE ADS -->
+    <section aria-labelledby="ads-title">
+      <h2 class="ff-section-title" id="ads-title">Cómo se verían los anuncios en Google</h2>
+      <p style="font-size:14px;color:var(--text-secondary);max-width:720px;">
+        A continuación se muestran ejemplos visuales de los anuncios de búsqueda: una versión tipo
+        escritorio y otra simulando un resultado en móvil. El contenido está pensado para aparecer cuando
+        alguien busca eskola Athletic o similares.
+      </p>
+
+      <div class="ff-ads-grid">
+        <!-- Desktop style -->
+        <article class="ff-ad-frame" aria-label="Ejemplo anuncio Google en escritorio">
+          <div class="ff-ad-toolbar">
+            <div class="ff-ad-google">Google · Resultados de búsqueda</div>
+            <div class="ff-ad-chip">Anuncio de ejemplo</div>
+          </div>
+
+          <div class="ff-ad-result">
+            <div class="ff-ad-url">anuncio · footballfun.es</div>
+            <a href="#" class="ff-ad-headline">
+              Escuela de fútbol en Bizkaia | Campus de Navidad en Derio
+            </a>
+            <div class="ff-ad-desc">
+              Escuela de fútbol para niñas y niños de 4 a 14 años. Entrenadores cualificados,
+              grupos reducidos y metodología divertida. Plazas limitadas para el Campus de Navidad.
+            </div>
+
+            <div class="ff-ad-sitelinks" aria-label="Enlaces de sitio">
+              <a href="#">Programas y modalidades</a>
+              <a href="#">Inscripción online</a>
+              <a href="#">Horarios y fechas</a>
+              <a href="#">Ubicación en Derio</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Mobile style -->
+        <article class="ff-ad-mobile" aria-label="Ejemplo anuncio Google en móvil">
+          <div class="ff-ad-mobile-header">
+            <span>Google</span>
+            <span class="ff-ad-chip">Anuncio</span>
+          </div>
+          <div class="ff-ad-mobile-body">
+            <div class="ff-ad-mobile-headline">
+              Campus de fútbol para niñas y niños
+            </div>
+            <div class="ff-ad-mobile-url">anuncio · footballfun.es/campus-navidad</div>
+            <div class="ff-ad-mobile-desc">
+              Campus de Navidad en Derio con entrenamientos divertidos, valores y trabajo en equipo.
+              Reserva tu plaza desde la web en menos de dos minutos.
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
